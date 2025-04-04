@@ -1,0 +1,9 @@
+# Directories and files to ignore
+
+jquery*
+*bootstrap*
+README.md
+.github
+docs/css
+docs/img
+docs/js

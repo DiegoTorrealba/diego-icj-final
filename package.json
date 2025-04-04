@@ -1,0 +1,67 @@
+{
+  "name": "icj-project-template",
+  "version": "1.1.1",
+  "description": "A development rig for Intro to Coding for Journalists, a class in the School of Journalism, Moody College of Communication, University of Texas at Austin.",
+  "main": "index.html",
+  "type": "module",
+  "scripts": {
+    "lint": "npx prettier --loglevel silent --write . && npx eslint --quiet --fix .",
+    "codespace-google-auth": "printenv GOOGLE_CREDENTIALS > service_account_key.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/utdata/icj-project-template.git"
+  },
+  "keywords": [],
+  "author": "Christian McDonald <christian.mcdonald@utexas.edu>",
+  "license": "ISC",
+  "eslintIgnore": [
+    "docs/"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/eslint-parser": "^7.22.5",
+    "@babel/preset-env": "^7.16.11",
+    "@newswire/doc-to-archieml": "^1.0.0",
+    "@newswire/sheet-to-data": "^1.0.0",
+    "ansi-colors": "^4.1.3",
+    "browser-sync": "^2.27.7",
+    "cssnano": "^6.0.1",
+    "del": "^7.0.0",
+    "eslint": "^8.9.0",
+    "eslint-plugin-compat": "^4.1.4",
+    "fancy-log": "^2.0.0",
+    "fs-extra": "^11.1.1",
+    "google-cloud-node": "^0.0.1-security",
+    "googleapis": "^118.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-cache": "^1.1.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-data": "^1.3.1",
+    "gulp-eslint": "^6.0.0",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-nunjucks-render": "^2.2.3",
+    "gulp-plugin-prettier": "^2.1.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp4-run-sequence": "^1.0.2",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-pngquant": "^5.0.1",
+    "is-valid-glob": "^1.0.0",
+    "journalize": "^2.5.1",
+    "pngquant-bin": "^3.1.1",
+    "prettier": "^2.8.8",
+    "sass": "^1.63.6"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.0",
+    "jquery": "^3.6.0"
+  }
+}

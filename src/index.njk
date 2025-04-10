@@ -3,7 +3,16 @@
 {% block page_title %} Home {% endblock %}
 
 {% block content %}
-<div class="container">
-  <p>Content Test</p>
+<div class="container" id = 'welcome-section'>
+  <div class="row">
+    <div class="col-md-4">
+      <img src="img/diego-vertical.JPG" alt="diego smiling to camera in front of tree." class = 'img-fluid' id = "welcome-image">
+    </div>
+    <div class="col-md-8">
+      <p id = "welcome-header" class="display-2 text-center text-md-start">Welcome to my website!</p>
+      <p id = "welcome-paragraph">I am a multimedia student journalist at the University of Texas pursuing a journalism degree with a certificate in computer science. With a passion for writing and computational techniques, I specialize in data-driven storytelling, visualization and multimedia reporting. I am interested in exploring use cases of evolving technologies for journalistic purposes, as well as their impact on the field.</p>
+    </div>
+
+  </div>
 </div>
 {% endblock %}

@@ -5,6 +5,7 @@
       "headline": "A reflection on lifelong learning",
       "date": "April 7, 2025",
       "image": "diego-medium-wide-2.JPG",
+      "imageText": "Portrait after my Honors Day ceremonies on April 5, 2025.",
       "post": [
         {
           "type": "text",
@@ -29,6 +30,7 @@
       "headline": "A thought about pursuing innovative story ideas",
       "date": "April 8, 2025",
       "image": "diego-blog.JPG",
+      "imageText": "",
       "post": [
         {
           "type": "text",
@@ -52,7 +54,8 @@
       "slug": "2025-04-10",
       "headline": "Python or R for data analysis? What you should know.",
       "date": "April 10, 2025",
-      "image": "",
+      "image": "python-or-r.png",
+      "imageText": "A person will often have to balance the pros and cons of the Python and R programming languages.",
       "post": [
         {
           "type": "Disclaimer",

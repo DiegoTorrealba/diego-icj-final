@@ -12,6 +12,14 @@
         <li class="nav-item">
           <a href="{{ relative_path }}gallery.html" class="nav-link">Gallery</a>
         </li>
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" id = "navbarDropdownBlogLink" role = "button" data-bs-toggle = "dropdown" aria-expanded = "false">Blogs</a>
+          <ul class="dropdown-menu" aria-labelledby = "navbarDropdownBlogLink">
+            {% for blog in blog.blogs %}
+            <li><a href="{{ relative_path }}blogs/{{ blog.slug }}.html" class="dropdown-item">{{ blog.headline }}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
         <li class="nav-item">
           <a href="{{ relative_path }}index-example.html" class="nav-link">Index Example</a>
         </li>

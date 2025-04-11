@@ -1,3 +1,13 @@
 {% extends '_templates/base.njk' %}
 
 {% set relative_path = "../" %}
+
+{% block page_title %}{{ headline }}{% endblock %}
+
+{% block page_description%}{{ title }} by Diego Torrealba, {{ date }}{% endblock %}
+
+{% block content %}
+  <div class="container">
+    <p>Test</p>
+  </div>
+{% endblock %}

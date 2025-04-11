@@ -21,7 +21,11 @@
   </div>
   <hr>
   <div class="row">
-    
+    {% for blog in blog.blogs %}
+      <h3><a href="blogs/{{ blog.slug }}.html">{{ blog.headline }}</a></h3>
+      <p>{{ blog.date }}</p>
+      <hr>
+    {% endfor %}
   </div>
   
 </div>  

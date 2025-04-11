@@ -1,0 +1,88 @@
+{
+  "blogs": [
+    {
+      "slug": "2025-04-07",
+      "headline": "A reflection on lifelong learning",
+      "date": "April 7, 2025",
+      "image": "diego-medium-wide-2.JPG",
+      "post": [
+        {
+          "type": "text",
+          "value": "Over the weekend, I was fortunate enough to be recognized as a College Scholar at UT Austin’s 77th Annual Honors Day for my work as an undergraduate student. Of the many pieces of advice given at the ceremony, I resonated most with guest speaker Dr. Peter Stone’s urge for us to be lifelong learners, capable of learning new tricks and frameworks throughout our careers."
+        },
+        {
+          "type": "text",
+          "value": "Stone mentioned that, as the world and the job market evolve, many of us, including myself, will likely pursue different careers rather than sticking to one for most of our professional lives. This means being a student does not end once you receive your diploma. If anything, your diploma marks only the end of your formal instruction, but you’ll continue to learn from your jobs, your experiences, and (most importantly) your mistakes."
+        },
+        {
+          "type": "text",
+          "value": "While it may seem obvious, being open to learning new things is crucial for effective lifelong learning. Too often, pride in our skills or abilities can make us complacent about identifying areas for improvement. But in this age, we must strive to refine ourselves continually, lest we risk our replacement by increasingly complex technology. What worked today may not always work tomorrow, and, as a young person, I need to keep this in mind as I make assumptions about how the future will look."
+        },
+        {
+          "type": "text",
+          "value": "To this end, I pledge always to learn more than what I “need” to know while accepting that what I do know can be flawed or incomplete. I will never assert that I know everything I can learn about any topic, and I will always be open to reframing my paradigm as new information or arguments arise. This way, my mind will stay sharp, and my skills will be adaptable as the world evolves quickly."
+        }
+      ]
+    },
+    {
+      "slug": "2025-04-08",
+      "headline": "A thought about pursuing innovative story ideas",
+      "date": "April 8, 2025",
+      "image": "diego-blog.JPG",
+      "post": [
+        {
+          "type": "text",
+          "value": "When considering different story ideas worth pursuing, a journalist often envisions a unique story that would be very impactful to the beat they cover but is intimidated by the work required to produce such a story correctly. This, coupled with the haste to keep up with the 24-hour news cycle, leads to these innovative ideas getting swept under the rug for stories that are easier and cheaper to produce."
+        },
+        {
+          "type": "text",
+          "value": "However, there are ways to make these innovative story ideas feel less daunting. A journalist usually might not pursue an idea because of the statistical or technical skills required to produce the story. With enough practice, though, these data-driven stories can become as “doable” as those that do not require coding experience or technical knowledge."
+        },
+        {
+          "type": "text",
+          "value": "To offer my experience as an example, I initially cringed at the sight of large Excel spreadsheets and CSVs before I renewed my effort to learn about programming languages and data analytics. The word “statistics” alone alarmed me, and I thought I could never navigate the tremendous number of resources available. However, after receiving formal instruction in various programming languages, learning about data manipulation techniques and dedicating time to practice with online resources, I now feel much more confident handling data and presenting it in visually engaging ways."
+        },
+        {
+          "type": "text",
+          "value": "This is to say that even if an idea might seem impossible initially, don’t let it discourage you from pursuing it. Instead, make it your goal to learn how to produce it! Whether it be programming, three-dimensional modeling, or any other technical skill, you might not have the skills to do it now, but with enough practice and effort, it can fall within the realm of possibility. Often, you’ll find it exciting just how much you can learn quickly when you put your mind to it."
+        }
+      ]
+    },
+    {
+      "slug": "2025-04-10",
+      "headline": "Python or R for data analysis? What you should know.",
+      "date": "April 10, 2025",
+      "image": "",
+      "post": [
+        {
+          "type": "Disclaimer",
+          "value": "This is the opinion of someone who has coded and taken classes mainly in Python. That said, I have also coded in Java, JavaScript and R, so this blog aims to offer advice to people learning to code for the first time."
+        },
+        {
+          "type": "text",
+          "value": "Whether you are curious about data analysis or need it for a specific application, many people will direct you to learn either <a href=\"https://www.python.org/\">Python</a> or <a href=\"https://www.r-project.org/\">R</a> as a good first language because of their support for advanced statistics and relatively simple syntax. But which one should you learn, and why?"
+        },
+        {
+          "type": "text",
+          "value": "The most important factor in your decision should be what you plan to do outside of data analysis, if you plan on doing anything outside of it at all. Choose R if you are strictly interested in data analysis or a quick way to do advanced statistics with little setup. However, choose Python if you want to do more than just data analysis, such as building websites or developing software."
+        },
+        {
+          "type": "text",
+          "value": "The blog could end here for most readers, but maybe a few more reasons could influence your decision. If you prefer to have a larger community of support to help troubleshoot your coding issues, choose Python. While the R community continues to grow in membership because of the popularity of big data and artificial intelligence, Python consistently ranks at the top with other programming languages like <a href=\"https://www.w3schools.com/c/c_intro.php\">C</a>, <a href=\"https://www.oracle.com/java/\">Java</a> and <a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript\">JavaScript</a> for its versatility. Nonetheless, both Python and R have robust libraries capable of making your time with data much easier than otherwise."
+        },
+        {
+          "type": "text",
+          "value": "However, Python somewhat lacks the ease with which someone can pick up R, install the <a href=\"https://www.tidyverse.org/\">Tidyverse</a> packages, and immediately begin manipulating, analyzing, and visualizing data. While package managers like <a href=\"https://anaconda.org/anaconda/conda\">Conda</a> streamline this process in Python, it requires more installation steps than R’s Tidyverse."
+        },
+        {
+          "type": "text",
+          "value": "Despite their similarities and differences, one thing is sure: As interpreted languages, Python and R are slow! Be prepared to wait several minutes for certain"
+        },
+        {
+          "type": "text",
+          "value": "scripts to run, especially if they involve machine learning. Coding to reduce <a href=\"https://www.w3schools.com/dsa/dsa_timecomplexity_theory.php\">time complexity</a>, or the rate at which time increases as the data inputted into the algorithm rises, is an art in itself. But that’s for another blog post!"
+        }
+      ]
+    }
+  ]
+}

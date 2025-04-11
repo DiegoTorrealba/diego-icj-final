@@ -3,15 +3,28 @@
 {% block page_title %} Home {% endblock %}
 
 {% block content %}
-<div class="container" id = 'welcome-section'>
+<div class="container py-3" id = 'welcome-section'>
   <div class="row">
     <div class="col-md-4">
       <img src="img/diego-vertical.JPG" alt="diego smiling to camera in front of tree." class = 'img-fluid' id = "welcome-image">
     </div>
     <div class="col-md-8">
-      <p id = "welcome-header" class="display-2 text-center text-md-start">Welcome to my website!</p>
-      <p id = "welcome-paragraph">I am a multimedia student journalist at the University of Texas pursuing a journalism degree with a certificate in computer science. With a passion for writing and computational techniques, I specialize in data-driven storytelling, visualization and multimedia reporting. I am interested in exploring use cases of evolving technologies for journalistic purposes, as well as their impact on the field.</p>
+        <p id = "welcome-header" class="display-2 text-center text-md-start">Welcome to my website!</p>
+        <p id = "welcome-paragraph">I am a multimedia student journalist at the University of Texas pursuing a journalism degree with a certificate in computer science. With a passion for writing and computational techniques, I specialize in data-driven storytelling, visualization and multimedia reporting. I am interested in exploring use cases of evolving technologies for journalistic purposes, as well as their impact on the field.</p>
+        <p>Learn more about me on my <a href="{{ relative_path }}about.html">about</a> page.</p>
     </div>
+<div class="container py-3">
+  <p class="display-5 text-center text-md-start" id = "blog-title">Personal blog</p>
+  <div class="row blog-description">
+    <p>I tend to write about lessons I've learned as a student, commentary on journalism issues, best practices when reporting and editing, and my experience with various technologies. From time to time, I'll also share personal updates about my life or talk about how much I love my cat, Cleo!</p>
+    <p>If you have a question about a blog post or want to reach out and talk, feel free to reach out via email or social media.</p>
+  </div>
+  <hr>
+  <div class="row">
+    
+  </div>
+  
+</div>  
 
   </div>
 </div>

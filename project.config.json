@@ -9,6 +9,16 @@
       "fileId": "1gDwO-32cgpBDn_0niV0iu6TqQTaRDr4nmSqnT53magY",
       "type": "sheet",
       "name": "bookstores"
+    },
+    {
+      "fileId": "1lwWi4LZdp2k3JVlBYQVSPAquQKF75ZVP61uEYF7SUoQ",
+      "type": "doc",
+      "name": "blog"
+    }, 
+    {
+      "fileId": "1XQtRea94A1mJs5hkkc3-eO8yVFSRmtOwnxBZnFoNAoA",
+      "type": "sheet",
+      "name": "projects"
     }
   ],
   "to_bake": [
@@ -18,6 +28,13 @@
       "array": "books",
       "slug": "slug",
       "path": "books"
+    },
+    {
+      "template": "bake-blog",
+      "data": "blog",
+      "array": "blogs",
+      "slug": "slug",
+      "path": "blogs"
     }
   ]
 }

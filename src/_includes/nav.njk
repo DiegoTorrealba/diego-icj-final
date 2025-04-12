@@ -20,19 +20,6 @@
             {% endfor %}
           </ul>
         </li>
-        <li class="nav-item">
-          <a href="{{ relative_path }}index-example.html" class="nav-link">Index Example</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Library books
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            {% for book in library.books %}
-            <li><a class="dropdown-item" href="{{ relative_path }}books/{{ book.slug}}.html">{{ book.title }}</a></li>
-            {% endfor %}
-          </ul>
-        </li>
       </ul>
     </div>
   </div>

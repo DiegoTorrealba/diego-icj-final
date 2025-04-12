@@ -20,7 +20,7 @@
                     Who am I?
                   </button>
                 </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#mainAboutCard">
+                <div id="collapseOne" class="accordion-collapse collapse show">
                   <div class="accordion-body">
                     <p>I am a student journalist pursuing my Bachelor of Journalism and an Elements of Computing certificate at the University of Texas at Austin. With my technical knowledge and love for writing, I seek to serve my community by telling impactful multimedia stories that adhere to the truth and allow people to receive the information they need.</p>
                     <p>Right now I am particularly interested in exploring the intersection between journalism and evolving technologies while using computational techniques to analyze data and share information effectively.</p>
@@ -33,7 +33,7 @@
                     Where am I from?
                   </button>
                 </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#mainAboutCard">
+                <div id="collapseTwo" class="accordion-collapse collapse">
                   <div class="accordion-body">
                     <p>Raised by Venezuelan parents, I am a first-generation American from Texas. I spend the majority of my time in Austin, but I also am frequently in Dallas and Houston.</p>
                   </div>
@@ -45,7 +45,7 @@
                     Why journalism and computing?
                   </button>
                 </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#mainAboutCard">
+                <div id="collapseThree" class="accordion-collapse collapse">
                   <div class="accordion-body">
                     <p>When applying for college, I struggled to choose a major to consistently apply with because various degrees interested me in one way or another. Every choice made me feel as though I had to either sacrifice my love for reading and writing or my love for technology and science. So, when I had the option to apply for both a primary and backup major, I decided to apply for both computer science and journalism, and I was acceepted subsequently into Moody College of Communication's journalism program.</p>
                     <p>For some reason, I thought that this meant I would never look at code again or be able to combine my interests in any meaningful way. It was not until I began to study journalism further, however, that I realized an entire data journalism community existed of people like me who loved both storytelling and programming. Since then, ...</p>
@@ -64,8 +64,17 @@
               Education
             </div>
             <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <h5>The University of Texas at Austin</h5>
+              <p>2022-Present</p>
+              <ul class="ut-list">
+                <li class="card-item">Bachelor of Journalism, Moody College of Communication</li>
+                <li class="card-item">Elements of Computing Certificate, College of Natural Sciences</li>
+              </ul>
+              <h5>Jesuit College Preparatory School of Dallas</h5>
+              <p>2018-2022</p>
+              <ul class="jesuit-list">
+                <li class="card-item">High school diploma</li>
+              </ul>
             </div>
           </div>
 
@@ -75,19 +84,16 @@
               Experience
             </div>
             <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            </div>
-          </div>
-
-          {# Projects card #}
-          <div class="card mb-3">
-            <div class="card-header">
-              Projects
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <h5>Student Technician, UT Journalism Media Innovation Group</h5>
+              <p class="card-text">Part-time, March 2025 - Present</p>
+              <h5>Script Editor/Fact-Checker, The Drag Audio Production House</h5>
+              <p class="card-text">Part-time, September 2024 - Present</p>
+              <h5>Videographer and Newsletter Writer, The Daily Texan</h5>
+              <p class="card-text">Extracurricular, January 2024 - Present</p>
+              <h5>Administrative Assistant, LWE Leasing</h5>
+              <p class="card-text">Part-time, December 2022 - July 2024</p>
+              <h5>Cashier, University Housing and Dining</h5>
+              <p class="card-text">Part-time, September 2022 - October 2023</p>
             </div>
           </div>
 
@@ -97,13 +103,34 @@
               Skills
             </div>
             <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <h5>Journalism</h5>
+              <p class="card-text">AP Style, Newsletters, Interviewing, Features, Copy-Editing, Scripts, Summaries, Profiles, Biographies</p>
+              <h5>Software</h5>
+              <p class="card-text">Microsoft Office, Adobe Premiere Pro, Adobe Audition, Canva, Trello, MailChimp, Google Suite, DataWrapper, DB Browser</p>
+              <h5>Code</h5>
+              <p>Python, R, HTML, CSS, SCSS, JavaScript, Basic Data Structures, Git, SQLite</p>
+              <h5>Language</h5>
+              <p>Proficient Spanish</p>
             </div>
           </div>
 
 
       </div>
+      </div>
+    
+    <p class="display-5 text-center">Projects</p>
+    <div class="row  row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 mb-4">
+      {% for project in projects.projects %}
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title"><a href="{{ project.link }}">{{ project.project_name }}</a></h5>
+            <p class="project-date">{{ project.date }}</p>
+            <p class="project-description">{{ project.description }}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
       </div>
     </div>
 {% endblock %}

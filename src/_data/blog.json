@@ -58,8 +58,8 @@
       "imageText": "A person will often have to balance the pros and cons of the Python and R programming languages.",
       "post": [
         {
-          "type": "Disclaimer",
-          "value": "This is the opinion of someone who has coded and taken classes mainly in Python. That said, I have also coded in Java, JavaScript and R, so this blog aims to offer advice to people learning to code for the first time."
+          "type": "text",
+          "value": "DISCLAIMER. This is the opinion of someone who has coded and taken classes mainly in Python. That said, I have also coded in Java, JavaScript and R, so this blog aims to offer advice to people learning to code for the first time."
         },
         {
           "type": "text",
@@ -67,7 +67,7 @@
         },
         {
           "type": "text",
-          "value": "The most important factor in your decision should be what you plan to do outside of data analysis, if you plan on doing anything outside of it at all. Choose R if you are strictly interested in data analysis or a quick way to do advanced statistics with little setup. However, choose Python if you want to do more than just data analysis, such as building websites or developing software."
+          "value": "The most important factor in your decision should be what you plan to do outside of data analysis, if you plan on doing anything outside of it at all. Choose R if you are interested strictly in data analysis or a quick way to do advanced statistics with little setup. However, choose Python if you want to do more than just data analysis, such as building websites or developing software (though this is not to say this cannot be done in R)."
         },
         {
           "type": "text",
@@ -75,15 +75,11 @@
         },
         {
           "type": "text",
-          "value": "However, Python somewhat lacks the ease with which someone can pick up R, install the <a href=\"https://www.tidyverse.org/\">Tidyverse</a> packages, and immediately begin manipulating, analyzing, and visualizing data. While package managers like <a href=\"https://anaconda.org/anaconda/conda\">Conda</a> streamline this process in Python, it requires more installation steps than R’s Tidyverse."
+          "value": "However, Python lacks the ease with which someone can pick up R, install the <a href=\"https://www.tidyverse.org/\">Tidyverse</a> packages, and immediately begin manipulating, analyzing, and visualizing data. The <a href=\"https://tidyverse.tidyverse.org/articles/manifesto.html\">tidy tools manifesto</a> leaves a sense of simplicity and cohesion often lacking from Python's overwhelming number of packages, which can vary immensely in form and usage. While package managers like <a href=\"https://anaconda.org/anaconda/conda\">Conda</a> streamline this process in Python, it requires more installation steps than R’s Tidyverse."
         },
         {
           "type": "text",
-          "value": "Despite their similarities and differences, one thing is sure: As interpreted languages, Python and R are slow! Be prepared to wait several minutes for certain"
-        },
-        {
-          "type": "text",
-          "value": "scripts to run, especially if they involve machine learning. Coding to reduce <a href=\"https://www.w3schools.com/dsa/dsa_timecomplexity_theory.php\">time complexity</a>, or the rate at which time increases as the data inputted into the algorithm rises, is an art in itself. But that’s for another blog post!"
+          "value": "Despite their similarities and differences, one thing is sure: As interpreted languages, Python and R are slow! Be prepared to wait several minutes for specific scripts to run with large datasets, especially if they involve machine learning. Coding to reduce <a href=\"https://www.w3schools.com/dsa/dsa_timecomplexity_theory.php\">time complexity</a>, or the rate at which time increases as the data inputted into the algorithm rises, is an art in itself. But that’s for another blog post!"
         }
       ]
     }

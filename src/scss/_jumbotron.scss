@@ -1,0 +1,22 @@
+
+.jumbo {
+  background-image: url("../img/nursery-flowers.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+
+  .jumbo-header {
+    background-color: rgba(255, 255, 255, 0.8);;
+    display: inline-block;
+
+    .jumbo-heading {
+      font-family: "Libre Franklin", sans-serif;
+    }
+
+    h3 {
+      font-weight: 200;
+    }
+  }
+}
+

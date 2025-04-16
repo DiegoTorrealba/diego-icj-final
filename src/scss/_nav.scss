@@ -3,4 +3,8 @@
 nav {
   background-color: $oxford-blue;
   font-family: Georgia, 'Times New Roman', Times, serif;
+
+  a:hover {
+    background-color: rgba(0, 0, 0, 0);
+  }
 }

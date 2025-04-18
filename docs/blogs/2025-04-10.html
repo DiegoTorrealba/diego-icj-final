@@ -1,256 +1,148 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <!-- A Intro to Coding for Journalists class project -->
   <head>
     <title>DT | Python or R for data analysis? What you should know.</title>
-    <meta
-      name="description"
-      content="Python or R for data analysis? What you should know. by Diego Torrealba, April 10, 2025"
-    />
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1"
-    />
-    <link rel="stylesheet" href="../css/main.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
+    <meta name="description" content="Python or R for data analysis? What you should know. by Diego Torrealba, April 10, 2025">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
   </head>
   <body>
     <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="../index.html">DT</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a href="../about.html" class="nav-link">About</a>
-            </li>
-            <li class="nav-item">
-              <a href="../gallery.html" class="nav-link">Gallery</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                href="#"
-                class="nav-link dropdown-toggle"
-                id="navbarDropdownBlogLink"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-                >Blogs</a
-              >
-              <ul
-                class="dropdown-menu"
-                aria-labelledby="navbarDropdownBlogLink"
-              >
-                <li>
-                  <a href="../blogs/2025-04-07.html" class="dropdown-item"
-                    >A reflection on lifelong learning</a
-                  >
-                </li>
-
-                <li>
-                  <a href="../blogs/2025-04-08.html" class="dropdown-item"
-                    >A thought about pursuing innovative story ideas</a
-                  >
-                </li>
-
-                <li>
-                  <a href="../blogs/2025-04-10.html" class="dropdown-item"
-                    >Python or R for data analysis? What you should know.</a
-                  >
-                </li>
-              </ul>
-            </li>
+  <div class="container-fluid">
+    <a class="navbar-brand" href="../index.html">DT</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="../about.html" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="../gallery.html" class="nav-link">Gallery</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" id = "navbarDropdownBlogLink" role = "button" data-bs-toggle = "dropdown" aria-expanded = "false">Blogs</a>
+          <ul class="dropdown-menu" aria-labelledby = "navbarDropdownBlogLink">
+            
+            <li><a href="../blogs/2025-04-10.html" class="dropdown-item">Python or R for data analysis? What you should know.</a></li>
+            
+            <li><a href="../blogs/2025-04-08.html" class="dropdown-item">A thought about pursuing innovative story ideas</a></li>
+            
+            <li><a href="../blogs/2025-04-07.html" class="dropdown-item">A reflection on lifelong learning</a></li>
+            
           </ul>
-        </div>
-      </div>
-    </nav>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-    <div class="jumbo p-5 text-center">
-      <div class="jumbo-header p-2">
-        <h1 class="jumbo-heading">Diego Torrealba</h1>
-        <h3>Student Journalist at the University of Texas at Austin</h3>
+    <div class = "jumbo p-5 text-center">
+  <div class= "jumbo-header p-2">
+      <h1 class="jumbo-heading">Diego Torrealba</h1>
+      <h3>Student Journalist at the University of Texas at Austin</h3>
+  </div>
+</div>
+
+    
+  <article class="container">
+    <div class="row py-3">
+      <div class="col-md-6">
+        <p class="display-5" id="blog-title">Python or R for data analysis? What you should know.</p>
+        <h5 id="blog-date">April 10, 2025</h5>
+        <p id = "byline">By Diego Torrealba</p>
+      </div>
+      <div class="col-md-6">
+        <figure>
+          <img src="../img/python-or-r.png" alt="" id="blog-image" class = "img-fluid">
+          <figcaption class = "image-caption">A person will often have to balance the pros and cons of the Python and R programming languages.</figcaption>
+        </figure>
       </div>
     </div>
+    <div class="row pb-3">
+      <div id="post">
+        
 
-    <article class="container">
-      <div class="row py-3">
-        <div class="col-md-6">
-          <p class="display-5" id="blog-title">
-            Python or R for data analysis? What you should know.
-          </p>
-          <h5 id="blog-date">April 10, 2025</h5>
-          <p id="byline">By Diego Torrealba</p>
-        </div>
-        <div class="col-md-6">
-          <figure>
-            <img
-              src="../img/python-or-r.png"
-              alt=""
-              id="blog-image"
-              class="img-fluid"
-            />
-            <figcaption class="image-caption">
-              A person will often have to balance the pros and cons of the
-              Python and R programming languages.
-            </figcaption>
-          </figure>
-        </div>
+  
+    
+<p>DISCLAIMER. This is the opinion of someone who has coded and taken classes mainly in Python. That said, I have also coded in Java, JavaScript and R, so this blog aims to offer advice to people learning to code for the first time.</p>
+
+  
+
+  
+    
+<p>Whether you are curious about data analysis or need it for a specific application, many people will direct you to learn either <a href="https://www.python.org/">Python</a> or <a href="https://www.r-project.org/">R</a> as a good first language because of their support for advanced statistics and relatively simple syntax. But which one should you learn, and why?</p>
+
+  
+
+  
+    
+<p>The most important factor in your decision should be what you plan to do outside of data analysis, if you plan on doing anything outside of it at all. Choose R if you are interested strictly in data analysis or a quick way to do advanced statistics with little setup. However, choose Python if you want to do more than just data analysis, such as building websites or developing software (though this is not to say this cannot be done in R).</p>
+
+  
+
+  
+    
+<p>The blog could end here for most readers, but maybe a few more reasons could influence your decision. If you prefer to have a larger community of support to help troubleshoot your coding issues, choose Python. While the R community continues to grow in membership because of the popularity of big data and artificial intelligence, Python consistently ranks at the top with other programming languages like <a href="https://www.w3schools.com/c/c_intro.php">C</a>, <a href="https://www.oracle.com/java/">Java</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a> for its versatility. Nonetheless, both Python and R have robust libraries capable of making your time with data much easier than otherwise.</p>
+
+  
+
+  
+    
+<p>However, Python lacks the ease with which someone can pick up R, install the <a href="https://www.tidyverse.org/">Tidyverse</a> packages, and immediately begin manipulating, analyzing, and visualizing data. The <a href="https://tidyverse.tidyverse.org/articles/manifesto.html">tidy tools manifesto</a> leaves a sense of simplicity and cohesion often lacking from Python's overwhelming number of packages, which can vary immensely in form and usage. While package managers like <a href="https://anaconda.org/anaconda/conda">Conda</a> streamline this process in Python, it requires more installation steps than R’s Tidyverse.</p>
+
+  
+
+  
+    
+<p>Despite their similarities and differences, one thing is sure: As interpreted languages, Python and R are slow! Be prepared to wait several minutes for specific scripts to run with large datasets, especially if they involve machine learning. Coding to reduce <a href="https://www.w3schools.com/dsa/dsa_timecomplexity_theory.php">time complexity</a>, or the rate at which time increases as the data inputted into the algorithm rises, is an art in itself. But that’s for another blog post!</p>
+
+  
+
+
       </div>
-      <div class="row pb-3">
-        <div id="post">
-          <p>
-            DISCLAIMER. This is the opinion of someone who has coded and taken
-            classes mainly in Python. That said, I have also coded in Java,
-            JavaScript and R, so this blog aims to offer advice to people
-            learning to code for the first time.
-          </p>
-
-          <p>
-            Whether you are curious about data analysis or need it for a
-            specific application, many people will direct you to learn either
-            <a href="https://www.python.org/">Python</a> or
-            <a href="https://www.r-project.org/">R</a> as a good first language
-            because of their support for advanced statistics and relatively
-            simple syntax. But which one should you learn, and why?
-          </p>
-
-          <p>
-            The most important factor in your decision should be what you plan
-            to do outside of data analysis, if you plan on doing anything
-            outside of it at all. Choose R if you are interested strictly in
-            data analysis or a quick way to do advanced statistics with little
-            setup. However, choose Python if you want to do more than just data
-            analysis, such as building websites or developing software (though
-            this is not to say this cannot be done in R).
-          </p>
-
-          <p>
-            The blog could end here for most readers, but maybe a few more
-            reasons could influence your decision. If you prefer to have a
-            larger community of support to help troubleshoot your coding issues,
-            choose Python. While the R community continues to grow in membership
-            because of the popularity of big data and artificial intelligence,
-            Python consistently ranks at the top with other programming
-            languages like
-            <a href="https://www.w3schools.com/c/c_intro.php">C</a>,
-            <a href="https://www.oracle.com/java/">Java</a> and
-            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-              >JavaScript</a
-            >
-            for its versatility. Nonetheless, both Python and R have robust
-            libraries capable of making your time with data much easier than
-            otherwise.
-          </p>
-
-          <p>
-            However, Python lacks the ease with which someone can pick up R,
-            install the
-            <a href="https://www.tidyverse.org/">Tidyverse</a> packages, and
-            immediately begin manipulating, analyzing, and visualizing data. The
-            <a href="https://tidyverse.tidyverse.org/articles/manifesto.html"
-              >tidy tools manifesto</a
-            >
-            leaves a sense of simplicity and cohesion often lacking from
-            Python's overwhelming number of packages, which can vary immensely
-            in form and usage. While package managers like
-            <a href="https://anaconda.org/anaconda/conda">Conda</a> streamline
-            this process in Python, it requires more installation steps than R’s
-            Tidyverse.
-          </p>
-
-          <p>
-            Despite their similarities and differences, one thing is sure: As
-            interpreted languages, Python and R are slow! Be prepared to wait
-            several minutes for specific scripts to run with large datasets,
-            especially if they involve machine learning. Coding to reduce
-            <a
-              href="https://www.w3schools.com/dsa/dsa_timecomplexity_theory.php"
-              >time complexity</a
-            >, or the rate at which time increases as the data inputted into the
-            algorithm rises, is an art in itself. But that’s for another blog
-            post!
-          </p>
-        </div>
+    </div>
+    <div class="row pb-3">
+      <div id="reach-out">
+        <h3>Have any questions or want to reach out to me?</h3>
+        <p>Please reach out to me through my socials to talk about any of my blog posts! I'd love to hear your thoughts or feedback.</p>
       </div>
-      <div class="row pb-3">
-        <div id="reach-out">
-          <h3>Have any questions or want to reach out to me?</h3>
-          <p>
-            Please reach out to me through my socials to talk about any of my
-            blog posts! I'd love to hear your thoughts or feedback.
-          </p>
-        </div>
-      </div>
-    </article>
+    </div>
+  </article>
+
 
     <footer>
-      <div class="container-fluid pt-3 pb-1">
-        <div class="container">
-          <div class="card py-2">
-            <div class="card-body text-center text-md-start">
-              <h3 class="card-title">Connect with me!</h3>
-              <p class="card-text">
-                If you want to see what I am up to or message me, feel free to
-                reach out through email and social media.
-              </p>
-              <div class="container text-center d-grid gap-3 d-sm-block">
-                <a
-                  href="mailto:diegotorrealba37@gmail.com"
-                  target="_blank"
-                  class="btn mx-2"
-                  >Email</a
-                >
-                <a
-                  href="https://github.com/DiegoTorrealba"
-                  target="_blank"
-                  class="btn mx-2"
-                  >GitHub</a
-                >
-                <a
-                  href="https://www.linkedin.com/in/diego-torrealba-"
-                  target="_blank"
-                  class="btn mx-2"
-                  >LinkedIn</a
-                >
-                <a
-                  href="https://bsky.app/profile/diegotorrealba.bsky.social"
-                  target="_blank"
-                  class="btn mx-2"
-                  >Bluesky</a
-                >
-                <a
-                  href="https://www.instagram.com/diegotorrealba0/"
-                  target="_blank"
-                  class="btn mx-2"
-                  >Instagram</a
-                >
-              </div>
-            </div>
+  <div class="container-fluid pt-3 pb-1">
+    <div class="container">
+      <div class="card py-2">
+        <div class="card-body text-center text-md-start">
+          <h3 class="card-title">Connect with me!</h3>
+          <p class="card-text">If you want to see what I am up to or message me, feel free to reach out through email and social media.</p>
+          <div class="container text-center d-grid gap-3 d-sm-block">
+            <a href="mailto:diegotorrealba37@gmail.com" target = "_blank" class="btn mx-2">Email</a>
+            <a href="https://github.com/DiegoTorrealba" target = "_blank" class="btn mx-2">GitHub</a>
+            <a href="https://www.linkedin.com/in/diego-torrealba-" target = "_blank" class="btn mx-2">LinkedIn</a>
+            <a href="https://bsky.app/profile/diegotorrealba.bsky.social" target = "_blank" class="btn mx-2">Bluesky</a>
+            <a href="https://www.instagram.com/diegotorrealba0/" target = "_blank" class="btn mx-2">Instagram</a>
           </div>
-          <p id="legal" class="center-block text-center pt-3">
-            <small>&copy;</small> <span class="copyright-year"></span>
-            A class project by Diego Torrealba.
-          </p>
         </div>
       </div>
-    </footer>
+      <p id="legal" class="center-block text-center pt-3">
+      <small>&copy;</small> <span class="copyright-year"></span>
+      A class project by Diego Torrealba.
+    </p>
+    </div>
+  </div>
+</footer>
+
 
     <script src="../js/jquery.js"></script>
     <script src="../js/bootstrap.bundle.min.js"></script>

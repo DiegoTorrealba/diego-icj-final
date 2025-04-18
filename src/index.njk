@@ -2,6 +2,8 @@
 
 {% block page_title %} Home {% endblock %}
 
+{% block page_description %}Home page of my personal website with an introduction and links to recent personal blog entries.{% endblock %}
+
 {% block content %}
 <div class="container py-3" id = 'welcome-section'>
   <div class="row">
@@ -21,7 +23,7 @@
   </div>
   <hr>
   <div class="row">
-    {% for blog in blog.blogs %}
+    {% for blog in blog.blogs | reverse %}
       <h3><a href="blogs/{{ blog.slug }}.html">{{ blog.headline }}</a></h3>
       <p>{{ blog.date }}</p>
       <hr>

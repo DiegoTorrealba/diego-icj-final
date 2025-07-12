@@ -1,6 +1,13 @@
 {
   "projects": [
     {
+      "project_name": "Austin Crime: In Perspective",
+      "link": "https://github.com/DiegoTorrealba/cs329e-group-project-dashboard/blob/main/DASHBOARDMARKDOWN.md",
+      "date": "Apr. 24, 2025",
+      "description": "Using Austin crime data from 2003 to February 2025, two of my classmates and I were able to explore patterns in crime types, locations, frequency over time and machine learning for my data visualizations class. This project allowed me to think critically about how to frame a story around the different data insights that my peers and I were finding, particularly about theft in Austin, and to use various Python data visualization packages.",
+      "type": "Github"
+    },
+    {
       "project_name": "What's the Buzz? An inside look at UT Austin's Beekeeping Society",
       "link": "https://youtu.be/26Y3p3nyqIg?feature=shared",
       "date": "Feb. 19, 2025",

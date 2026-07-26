@@ -1,6 +1,34 @@
 {
   "projects": [
     {
+      "project_name": "Comparing contracting with minority-owned businesses in Texas and California between the Trump and Biden administrations",
+      "link": "https://djnf-data-2026.github.io/diego-torrealba/",
+      "date": "Jun. 5, 2025",
+      "description": "I wrote a formal pitch as part of my Dow Jones News Fund internship training that analyzed federal government spending data to compare contracts awarded to minority-owned businesses in Texas and California between the Trump and Biden administrations. For this pitch, I analyzed available data to identify noteworthy trends and minority-owned businesses to investigate, noted important holes in the available data, and preliminarily showed how the similarity spending between the two administrations is greater than one might assume. ",
+      "type": "Story Pitch"
+    },
+    {
+      "project_name": "PIR Tracker",
+      "link": "https://github.com/DiegoTorrealba/PIR-Tracker",
+      "date": "Apr. 28, 2026",
+      "description": "For my mobile computing class, I created an iOS app in Swift that allows a user to easily track their public information requests (i.e., \"PIRs\") for different stories, logging information such as the purpose of a request, to whom and when it was sent, when it was fulfilled or canceled, and how much it might cost. For this project, I learned Swift and how to integrate my app with Firebase to utilize its authentication and database services. ",
+      "type": "Mobile App"
+    },
+    {
+      "project_name": "Internet Explainer Ep. 2: The \"social\" in \"social media:\" Why online communities continue to thrive",
+      "link": "https://soundcloud.com/teresa-do-171800615/internet-explainer-ep-2-the",
+      "date": "Apr. 27, 2026",
+      "description": "In this second episode of \"Internet Expainer,\" I served as host with my partner, Teresa Do, in an episode talking about online communities on the Internet and why they are so popular. For this episode, I also interviewed my friend, Autumn Adame, to learn more about other Gen Z adults' experience growing up with unfettered access to the Internet. ",
+      "type": "Podcast"
+    },
+    {
+      "project_name": "Internet Explainer Ep. 1: Online privacy vs. presence: should we know less about each other?",
+      "link": "https://soundcloud.com/diego-jose-torrealba/internet-explainer-ep-1-online",
+      "date": "Feb. 24, 2026",
+      "description": "In my Podcasting Capstone, led by Professor Robert Quigley, I served as the producer for this first episode with my partner, Teresa Do, of a podcast called \"Internet Explainer,\" which explores the good, the bad and the ugly of what Iternet culture looks like today. This first episode dives into my and Teresa's thoughts about online privacy, especially as we grew up with social media all our lives. ",
+      "type": "Podcast"
+    },
+    {
       "project_name": "Feeding the Forty Acres: How different groups are addressing food insecurity at the University of Texas at Austin. ",
       "link": "https://soundcloud.com/diego-jose-torrealba/college-food-insecurity-at-ut?si=ce6f834cd4154c40bc36bfd8a4fda5ae&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
       "date": "Nov. 23, 2025",
@@ -13,6 +41,13 @@
       "date": "Nov. 1, 2025",
       "description": "As part of my Digital Innovations Capstone, led by Professor Christian McDonald, my team and I created a Penpot wireframe for a click-through game that highlighted the steps journalist Ana Campbell took to write an article and radio segment about the Texas shrimping industry. Apart from helping with research, leading focus groups and storyboarding the different parts of the game, I connected most of the frames and created many elements of the game. In the end, my team and I learned much about the design process, and I was able to teach myself how to produce a wireframe. ",
       "type": "Wireframe"
+    },
+    {
+      "project_name": "\"Americans and their data\" Pew Research Center Analysis        ",
+      "link": "https://diegotorrealba.quarto.pub/diego-rwd-final-project/#news-summary ",
+      "date": "Apr. 28, 2025",
+      "description": "For my final project in my Reporting with Data class, I used survey data from Wave 127 of Pew Research Center’s American Trends Panel (ATP), which focuses on “Americans and their data.” Using the survey’s questionnaire and methodology documents, I cleaned and organized the data to create multiple ggplot visualizations and ultimately write an AP-style news summary of my findings. For this assignment, I cleaned, analyzed, and visualized the data using R and R libraries such as Tidyverse, ultimately uploading the website via QuartoPub. ",
+      "type": "Website"
     },
     {
       "project_name": "Austin Crime: In Perspective",
